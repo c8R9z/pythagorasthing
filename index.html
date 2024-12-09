@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pythagorase Kalkulaator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pythagorase Kalkulaator</h1>
+        <form id="pythagoras-form">
+            <label for="a">Külg a:</label>
+            <input type="number" id="a" min="0" required>
+
+            <label for="b">Külg b:</label>
+            <input type="number" id="b" min="0" required>
+
+            <button type="submit">Arvuta</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
